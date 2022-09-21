@@ -2,6 +2,7 @@ package hardtech;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 
 public class CollectionConcepts {
 
@@ -15,7 +16,12 @@ public class CollectionConcepts {
         products.add(floorPanel);
         products.add(window);
 
-        System.out.println(products);
+        final Iterator<Product> productIterator = products.iterator();
+        while (productIterator.hasNext()){
+            Product product = productIterator.next();
+            System.out.println(product);
+        }
+
 
     }
 }
