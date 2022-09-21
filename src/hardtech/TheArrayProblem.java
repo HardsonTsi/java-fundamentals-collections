@@ -11,7 +11,14 @@ public class TheArrayProblem {
 
 //        Create
         Product[] products = {door, floorPanel};
-        System.out.println(products);
+
+//        Print
+        System.out.println(Arrays.toString(products));
+
+//        Add
+        final Product product = new Product("Window", 3);
+        products = add(product, products);
+        System.out.println(Arrays.toString(products));
     }
 
     public static Product[] add(Product product, Product[] array) {
