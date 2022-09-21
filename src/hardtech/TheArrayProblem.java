@@ -16,8 +16,12 @@ public class TheArrayProblem {
         System.out.println(Arrays.toString(products));
 
 //        Add
-        final Product product = new Product("Window", 3);
-        products = add(product, products);
+        final Product window = new Product("Window", 3);
+        products = add(window, products);
+        System.out.println(Arrays.toString(products));
+
+//        Ducplicate
+        products = add(window, products);
         System.out.println(Arrays.toString(products));
     }
 
