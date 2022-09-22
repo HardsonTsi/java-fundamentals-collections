@@ -1,6 +1,10 @@
 package hardtech;
 
+import java.util.Comparator;
+
 public class Product {
+
+    public static final Comparator<Product> BY_WEIGHT = Comparator.comparing(Product::getWeight);
 
     private final String name;
     private final int weight;
@@ -26,5 +30,6 @@ public class Product {
                 '}';
     }
 
+//    with Richard Warburton
 
 }
