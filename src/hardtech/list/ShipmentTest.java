@@ -1,4 +1,4 @@
-package hardtech;
+package hardtech.list;
 
 import org.junit.jupiter.api.Test;
 

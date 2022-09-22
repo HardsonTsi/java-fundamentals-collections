@@ -1,4 +1,6 @@
-package hardtech;
+package hardtech.list;
+
+import hardtech.Product;
 
 import java.util.ArrayList;
 import java.util.Iterator;

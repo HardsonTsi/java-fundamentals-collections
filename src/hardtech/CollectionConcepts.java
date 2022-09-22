@@ -15,7 +15,7 @@ public class CollectionConcepts {
         products.add(floorPanel);
         products.add(window);
 
-        for(Product product: products){
+        for (Product product : products) {
             System.out.println(product);
         }
 
